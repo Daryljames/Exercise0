@@ -2,17 +2,17 @@ namespace CarFactory.Models
 {
     public class Vehicle
     {
-        private string Color;
-        private string Brand;
+        private string color;
+        private string brand;
         public Vehicle(string color, string brand)
         {
-            this.Color = color;
-            this.Brand = brand;
+            this.color = color;
+            this.brand = brand;
         }
 
         public string DisplayVehicle()
         {
-            string vehicleInfo = this.Color + " " + this.Brand;
+            string vehicleInfo = this.color + " " + this.brand;
 
             return vehicleInfo;
         }
